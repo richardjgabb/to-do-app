@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>To Do App</title>
+    <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<h1>Completed</h1>
+<section class="mainSection">
+<?php
+foreach ($completedTasks as $task){
+    echo '<div class="buttonDiv">
+              <h4>' . $task['task'] . '</h4>
+                <a class="button" href="/markIncomplete/'.$task['id'].'">⎌</a>
+                <a class="button" href="/delete/' . $task['id'] . '">🗑</a>
+              </div>';
+}
+?>
+<a class="link" href="/">Home</a>
+</section>
+</body>
+</html>

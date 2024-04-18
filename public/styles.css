@@ -1,0 +1,104 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px 0 0 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #aaa;
+    font-size: 18px;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #fcf3eb;
+    border: solid 1px black;
+    filter: drop-shadow(2px 4px 2px rgba(55, 52, 52, 0.52));
+    border-radius: 1rem;
+}
+
+h1 {
+    color: #719e40;
+    letter-spacing: -3px;
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+h4, form {
+    display: inline;
+    justify-self: flex-start;
+    flex-grow: 1;
+}
+
+h4 {
+    padding: 1rem;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+input, button {
+    height: 2rem;
+    border: solid black 1px;
+    border-radius: 0.3rem;
+}
+
+input {
+    border: solid 1px black;
+}
+
+button {
+    width: 2rem;
+}
+
+input[type='submit'] {
+    background-color: #719e40;
+    color: #ffffff;
+}
+
+.undo {
+    color: #719e40;
+    font-size: 24px;
+}
+
+.buttonDiv {
+    justify-content: space-between;
+    margin: 0;
+}
+
+a.button {
+    text-decoration: none;
+    color: #719e40;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    font-size: 24px;
+    width: 2rem;
+    height: 2rem;
+    /*border: solid 1px black;*/
+    line-height: 2rem;
+}
+
+a.link {
+    display: block;
+    margin-top: 1.5rem;
+    width: fit-content;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #719e40;
+    border: solid 1px black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
